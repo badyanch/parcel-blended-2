@@ -1,0 +1,49 @@
+.hero {
+    text-align: center;
+}
+
+.hero-container {
+    padding-top: 210px;
+    padding-bottom: 284px;
+}
+
+.hero-titlle {
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: var(--titlle-hero-color);
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.hero-descr {
+    margin-top: 0;
+    margin-bottom: 29px;
+    color: var(--titlle-hero-color);
+    font-size: 22px;
+    line-height: 1.68;
+}
+
+.hero-button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 30px 9px 41px;
+    min-width: 92px;
+    text-align: center;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--secondary-color);
+    fill: currentColor;
+    background-color: var(--secondary-bg-color);
+    font-family: inherit;
+    line-height: 1.56;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-active-green);
+    box-shadow: var(--shadow-btn);
+}
