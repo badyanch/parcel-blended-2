@@ -1,0 +1,46 @@
+.foot {
+    background-color: #333333;
+    padding: 20px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1330px;
+
+
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.icon-list .item {
+    width: 35px;
+    height: 35px;
+
+}
+
+.pf {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.social-icons {
+    fill: #FFFFFF;
+}
