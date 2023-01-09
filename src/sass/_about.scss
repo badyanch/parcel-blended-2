@@ -1,17 +1,17 @@
 /* Переваги */
 
-.solutions {
+.solutions__container {
     display: flex;
   }
   
-  .solutions-desk {
+  .solutions__desk {
     padding: 84px 44px 84px 30px;
   
     background-color: var(--secondary-bg-color);
     color: var(--secondary-color);
   }
   
-  .section-title {
+  .solutions__title {
     margin-bottom: 5px;
   
     font-weight: 400;
@@ -19,7 +19,7 @@
     line-height: 1.65;
   }
   
-  .solutions-subtitle {
+  .solutions__subtitle {
     margin-bottom: 26px;
   
     font-weight: 300;
@@ -27,14 +27,14 @@
     line-height: 1.26;
   }
   
-  .solutions-text {
+  .solutions__text {
     margin-bottom: 17px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
   }
   
-  .button {
+  .solutions__button {
     display: block;
     min-width: 167px;
     padding: 12px 0;
