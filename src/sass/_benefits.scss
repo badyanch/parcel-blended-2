@@ -7,13 +7,13 @@
     justify-content: space-between;
   }
   
-  .benefits-item {
+  .benefits__item {
     display: block;
     width: 362px;
     text-align: center;
   }
   
-  .benefits-icon {
+  .benefits__box {
     display: inline-flex;
     margin-top: 40px;
     margin-bottom: 15px;
@@ -27,14 +27,14 @@
     fill: var(--secondary-color);
   }
   
-  .lead {
+  .benefits__title {
     margin-bottom: 16px;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.65;
   }
   
-  .text {
+  .benefits__text {
     margin-bottom: 19px;
     font-weight: 400;
     font-size: 18px;

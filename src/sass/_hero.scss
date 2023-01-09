@@ -2,12 +2,12 @@
     text-align: center;
 }
 
-.hero-container {
+.hero__container {
     padding-top: 210px;
     padding-bottom: 284px;
 }
 
-.hero-titlle {
+.hero__titlle {
     margin-bottom: 25px;
     margin-top: 0;
     color: var(--titlle-hero-color);
@@ -16,7 +16,7 @@
     line-height: 1.2;
 }
 
-.hero-descr {
+.hero__descr {
     margin-top: 0;
     margin-bottom: 29px;
     color: var(--titlle-hero-color);
@@ -24,7 +24,7 @@
     line-height: 1.68;
 }
 
-.hero-button {
+.hero__button {
     display: flex;
     gap: 5px;
     align-items: center;
@@ -42,8 +42,8 @@
     line-height: 1.56;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
     background-color: var(--button-active-green);
     box-shadow: var(--shadow-btn);
 }

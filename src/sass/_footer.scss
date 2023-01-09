@@ -1,14 +1,12 @@
-.foot {
+.footer {
     background-color: #333333;
     padding: 20px 16px;
     margin-left: auto;
     margin-right: auto;
     width: 1330px;
-
-
 }
 
-.icon-list {
+.icon {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -16,17 +14,17 @@
     padding: 0;
 }
 
-.footer-item:not(:last-child) {
+.icon__item:not(:last-child) {
     margin-right: 25px;
 }
 
-.icon-list .item {
+.icon__item {
     width: 35px;
     height: 35px;
 
 }
 
-.pf {
+.footer__text {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -35,12 +33,12 @@
     color: #FFFFFF;
 }
 
-.social-links {
+.icon__links {
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-.social-icons {
+.icon__social {
     fill: #FFFFFF;
 }
